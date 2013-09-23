@@ -12,13 +12,13 @@ These are my dotfiles.
 
 bash symlinks:
 ```
-$ ln -s ~/dotfiles/bash/bash_profile ~/.bash_profile
-$ ln -s ~/dotfiles/bash/bashrc ~/.bashrc
+$ ln -s ~/dotfiles/bash_profile ~/.bash_profile
+$ ln -s ~/dotfiles/bashrc ~/.bashrc
 ```
 
 ##git
 
-git symlinnks
+git symlinnks:
 ```
-$ ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
+$ ln -s ~/dotfiles/gitconfig ~/.gitconfig
 ```
