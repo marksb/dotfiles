@@ -19,9 +19,11 @@ alias gs="   git status"
 alias ga="   git add"
 alias gc="   git commit -m"
 alias gp="   git push"
+alias gl="   git log -a"
 
 # postgres
 alias pg='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log'
+export PGHOST=localhost
 
 # enables color for iTerm
 export TERM=xterm-color
@@ -32,8 +34,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
-
-
-
-
