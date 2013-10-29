@@ -22,3 +22,10 @@ git symlinnks:
 ```
 $ ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ```
+
+##rspec
+
+rspec symlinnks:
+```
+$ ln -s ~/dotfiles/.rspec ~/.rspec
+```
